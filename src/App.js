@@ -39,7 +39,7 @@ Passionate about Python, AI, cloud computing, cybersecurity.`,
     {
       title: 'EMPOWER360',
       description: 'Web digital solutions using JavaScript. Active public repo.',
-      link: 'https://github.com/lakshaypareek1004/EMPOWER360',
+      link: 'https://empower-360.vercel.app/',
       icon: '🟨',
       tech: ['React', 'JavaScript', 'CSS', 'HTML']
     },
