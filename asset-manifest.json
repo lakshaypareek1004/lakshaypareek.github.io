@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b2f8deb.css",
-    "main.js": "/static/js/main.dee2b4c0.js",
-    "static/js/453.6b360a3c.chunk.js": "/static/js/453.6b360a3c.chunk.js",
-    "static/media/image.jpg": "/static/media/image.9892493ed6db3c15e5c8.jpg",
-    "index.html": "/index.html",
-    "main.2b2f8deb.css.map": "/static/css/main.2b2f8deb.css.map",
-    "main.dee2b4c0.js.map": "/static/js/main.dee2b4c0.js.map",
-    "453.6b360a3c.chunk.js.map": "/static/js/453.6b360a3c.chunk.js.map"
+    "main.css": "https://lakshaypareek1004.github.io/static/css/main.2b2f8deb.css",
+    "main.js": "https://lakshaypareek1004.github.io/static/js/main.02b292a3.js",
+    "static/js/453.6b360a3c.chunk.js": "https://lakshaypareek1004.github.io/static/js/453.6b360a3c.chunk.js",
+    "static/media/image.jpg": "https://lakshaypareek1004.github.io/static/media/image.9892493ed6db3c15e5c8.jpg",
+    "index.html": "https://lakshaypareek1004.github.io/index.html",
+    "main.2b2f8deb.css.map": "https://lakshaypareek1004.github.io/static/css/main.2b2f8deb.css.map",
+    "main.02b292a3.js.map": "https://lakshaypareek1004.github.io/static/js/main.02b292a3.js.map",
+    "453.6b360a3c.chunk.js.map": "https://lakshaypareek1004.github.io/static/js/453.6b360a3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b2f8deb.css",
-    "static/js/main.dee2b4c0.js"
+    "static/js/main.02b292a3.js"
   ]
 }
