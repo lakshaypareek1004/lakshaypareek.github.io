@@ -12,17 +12,16 @@
     "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "4.0.3",
     "react-scroll": "^1.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist"
   },
   "jest": {
     "moduleNameMapper": {
@@ -49,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "identity-obj-proxy": "^3.0.0"
+    "@vitejs/plugin-react": "^5.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "vite": "^7.1.10"
   }
 }
