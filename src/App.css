@@ -271,6 +271,12 @@
     max-width: 280px;
     text-align: center;
   }
+
+  .contact-grid {
+    grid-template-columns: 1fr; /* Single column for contact info */
+    gap: 1rem;
+    text-align: center;
+  }
 }
 
 /* For smaller mobile phones */
@@ -290,5 +296,11 @@
 
   .main-section {
     padding: 1.5rem 1rem;
+  }
+
+  .skill-container,
+  .project-card-vibrant {
+    min-width: 0; /* Allow cards to shrink fully */
+    flex-basis: 100%; /* Make cards take full width */
   }
 }
