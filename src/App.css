@@ -216,11 +216,79 @@
   border-top: 2px solid #b146fa;
 }
 
-@media (max-width: 600px) {
-  .main-content-box { padding: 18px 1vw; }
-  .columns-box { flex-direction: column; }
-  .skill-container, .project-card-vibrant { min-width: unset; max-width: 100%; }
-  .profile-img-hero { width: 72px; height: 72px; }
-  .main-section { padding: 14px 2vw 8px 2vw; }
-  .contact-grid.contact-vertical { gap: 11px; }
+/* =================================== */
+/*          Responsive Design          */
+/* =================================== */
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .main-content-box {
+    padding: 2rem;
+  }
+
+  .columns-box {
+    /* The existing flex-wrap: wrap will handle this, but we can be explicit */
+    justify-content: center;
+  }
+
+  .project-card-vibrant {
+    max-width: 350px; /* Allow cards to be a bit larger on tablets */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+  .dev-header-ext {
+    padding: 1.5rem 1rem;
+  }
+
+  .profile-img-hero {
+    width: 100px; /* Smaller profile image */
+    height: 100px;
+  }
+
+  .dev-hero {
+    font-size: 2rem; /* Smaller hero text */
+  }
+
+  .dev-nav {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 0.5rem;
+  }
+
+  .main-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .social-row {
+    flex-direction: column; /* Stack social buttons */
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .social-btn-vibrant {
+    width: 80%;
+    max-width: 280px;
+    text-align: center;
+  }
+}
+
+/* For smaller mobile phones */
+@media (max-width: 480px) {
+  .dev-hero {
+    font-size: 1.8rem;
+  }
+
+  .dev-nav a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .main-content-box {
+    padding: 1rem 0.5rem;
+  }
+
+  .main-section {
+    padding: 1.5rem 1rem;
+  }
 }
