@@ -49,7 +49,7 @@ Passionate about Python, AI, cloud computing, cybersecurity.`,
       link: 'https://github.com/lakshaypareek1004/lakshaypareek.github.io',
       icon: '🌐',
       tech: ['React', 'JavaScript', 'CSS', 'HTML']
-    }
+    },
     {
       title: 'Selenium-Iframe-ShadowDom-Playground<',
       description: 'Developed a full Selenium test suite and custom HTML playground to practice resilient automation across iFrames, Shadow DOM, and complex DOM structures.',
