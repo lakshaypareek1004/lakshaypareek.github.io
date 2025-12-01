@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Dependencies and Generate Lock File
-        run: npm install
+      - name: Install Dependencies (Clean)
+        run: npm ci
 
-      #- name: Run tests
-       # run: npm test -- --watchAll=false
+      - name: Run tests
+        run: npm test -- --watchAll=false
 
       - name: Build
         run: npm run build
