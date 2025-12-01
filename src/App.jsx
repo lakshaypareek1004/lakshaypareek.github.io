@@ -50,6 +50,13 @@ Passionate about Python, AI, cloud computing, cybersecurity.`,
       icon: '🌐',
       tech: ['React', 'JavaScript', 'CSS', 'HTML']
     }
+    {
+      title: 'Selenium-Iframe-ShadowDom-Playground<',
+      description: 'Developed a full Selenium test suite and custom HTML playground to practice resilient automation across iFrames, Shadow DOM, and complex DOM structures.',
+      link: 'https://github.com/lakshaypareek1004/Selenium-Iframe-ShadowDom-Playground',
+      icon: '🟨',
+      tech: ['Selenium', 'C#', 'JavaScript', 'CSS', 'HTML']
+    }
   ],
   certifications: [
     { title: 'Tech A Transition: Java/Kotlin to Android', description: 'Infosys, Oct 2024. Android development and Kotlin.', icon: '📱' },
